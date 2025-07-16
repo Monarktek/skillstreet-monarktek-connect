@@ -28,7 +28,7 @@ export default function Careers() {
       title: "Mobile Designer",
       type: "Contract",
       location: "Remote",
-      description: "Join our design team to create beautiful, user-friendly interfaces for our mobile applications. You'll help shape the visual identity and user experience of SkillStreet.",
+      description: "Join our design team to create beautiful, user-friendly interfaces for our mobile applications. You'll help shape the visual identity and user experience of OldSkool.",
       requirements: [
         "3+ years of mobile app design experience",
         "Proficiency in Figma or similar design tools",
@@ -45,7 +45,7 @@ export default function Careers() {
       title: "Marketing Position",
       type: "Contract",
       location: "Remote",
-      description: "Help us grow SkillStreet's user base and build brand awareness. You'll develop and execute marketing strategies to reach our target audience and drive user acquisition.",
+      description: "Help us grow OldSkool's user base and build brand awareness. You'll develop and execute marketing strategies to reach our target audience and drive user acquisition.",
       requirements: [
         "3+ years of digital marketing experience",
         "Experience with social media marketing",

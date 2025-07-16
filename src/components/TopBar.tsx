@@ -13,7 +13,7 @@ export default function TopBar() {
             Monarktek
           </Link>
           <div className="text-muted-foreground font-medium">
-            🚀 SkillStreet is launching soon - Building Community Connections
+            🚀 OldSkool is launching soon - Bringing back community
           </div>
           <div className="w-20"> {/* Spacer for balanced layout */}</div>
         </div>

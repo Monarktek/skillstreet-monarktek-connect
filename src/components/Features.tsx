@@ -68,10 +68,10 @@ export default function Features() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Why Choose SkillStreet?
+            Why Choose OldSkool?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            SkillStreet isn't just another app—it's your gateway to meaningful local connections, 
+            OldSkool isn't just another app—it's your gateway to meaningful local connections, 
             powered by cutting-edge AI technology.
           </p>
         </div>

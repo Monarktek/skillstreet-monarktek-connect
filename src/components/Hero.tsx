@@ -26,8 +26,11 @@ export default function Hero() {
                   </div>
                 </div>
                 <h1 className="text-4xl md:text-6xl font-bold text-foreground">
-                  <span className="text-primary">SkillStreet</span>
+                  <span className="text-primary">OldSkool</span>
                 </h1>
+                <p className="text-lg md:text-xl text-primary font-semibold mb-2">
+                  Bringing back community
+                </p>
                 <p className="text-xl md:text-2xl text-muted-foreground">
                   Your local connection hub for gigs, projects, events, and meaningful relationships.
                 </p>
@@ -71,7 +74,7 @@ export default function Hero() {
             <div className="relative rounded-2xl overflow-hidden shadow-glow">
               <img 
                 src={womanPhoneImage} 
-                alt="Woman using smartphone in neighborhood - SkillStreet app concept"
+                alt="Woman using smartphone in neighborhood - OldSkool app concept"
                 className="w-full h-[400px] md:h-[500px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>

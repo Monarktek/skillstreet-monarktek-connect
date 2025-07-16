@@ -29,9 +29,9 @@ export default function Footer() {
             </div>
           </div>
 
-          {/* SkillStreet */}
+          {/* OldSkool */}
           <div>
-            <h4 className="text-lg font-semibold mb-4 text-foreground">SkillStreet</h4>
+            <h4 className="text-lg font-semibold mb-4 text-foreground">OldSkool</h4>
             <ul className="space-y-2 text-muted-foreground">
               <li>Find Local Gigs</li>
               <li>Connect with People</li>

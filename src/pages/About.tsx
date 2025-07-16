@@ -15,7 +15,7 @@ export default function About() {
               About <span className="text-primary">Monarktek</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              We've been developing SkillStreet for several years, with the idea starting about 10 years ago. 
+              We've been developing OldSkool for several years, with the idea starting about 10 years ago. 
               Our mission is to connect people faster using AI, helping them find local gigs, community events, 
               and meaningful relationships.
             </p>
@@ -31,7 +31,7 @@ export default function About() {
               Our Team
             </h2>
             <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-              Meet the team behind SkillStreet. We've been working remotely together using Discord, 
+              Meet the team behind OldSkool. We've been working remotely together using Discord, 
               building this platform from the ground up.
             </p>
           </div>
@@ -46,7 +46,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-foreground mb-2">Alan Hourmand</h3>
                 <Badge variant="secondary" className="mb-4">CEO & Founder</Badge>
                 <p className="text-muted-foreground">
-                  Visionary leader who conceived the SkillStreet idea 10 years ago. Alan has been 
+                  Visionary leader who conceived the OldSkool idea 10 years ago. Alan has been 
                   driving the product development and company strategy since inception.
                 </p>
               </CardContent>
@@ -91,7 +91,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-foreground mb-2">Raheem Hammed</h3>
                 <Badge variant="secondary" className="mb-4">Developer</Badge>
                 <p className="text-muted-foreground">
-                  Full-stack developer who helped build SkillStreet from the ground up. 
+                  Full-stack developer who helped build OldSkool from the ground up. 
                   Raheem specializes in backend systems and API development.
                 </p>
               </CardContent>
@@ -124,7 +124,7 @@ export default function About() {
             </h2>
             <div className="max-w-4xl mx-auto">
               <p className="text-lg text-muted-foreground mb-6">
-                The idea for SkillStreet began 10 years ago when our founder Alan Hourmand 
+                The idea for OldSkool began 10 years ago when our founder Alan Hourmand 
                 recognized the need for better local connections in an increasingly digital world. 
                 What started as a simple concept has evolved into a comprehensive AI-powered platform 
                 that helps people find meaningful work, events, and relationships in their communities.
@@ -132,11 +132,11 @@ export default function About() {
               <p className="text-lg text-muted-foreground mb-6">
                 Over the years, we've assembled a talented team of developers, designers, and business 
                 professionals who share our vision of strengthening local communities through technology. 
-                Working remotely and collaborating primarily through Discord, we've built SkillStreet 
+                Working remotely and collaborating primarily through Discord, we've built OldSkool 
                 from the ground up with a focus on user experience and community impact.
               </p>
               <p className="text-lg text-muted-foreground">
-                Today, SkillStreet represents years of dedication, innovation, and a deep commitment 
+                Today, OldSkool represents years of dedication, innovation, and a deep commitment 
                 to making local connections easier and more meaningful for everyone.
               </p>
             </div>

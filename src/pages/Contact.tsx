@@ -16,7 +16,7 @@ export default function Contact() {
               Get In <span className="text-primary">Touch</span>
             </h1>
             <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-              Have questions about SkillStreet or want to learn more about our platform? 
+              Have questions about OldSkool or want to learn more about our platform? 
               We'd love to hear from you. Send us an email and we'll get back to you soon.
             </p>
           </div>
@@ -86,7 +86,7 @@ export default function Contact() {
                   <ul className="space-y-2 text-muted-foreground">
                     <li className="flex items-start gap-2">
                       <span className="text-primary mt-1">•</span>
-                      Questions about SkillStreet features
+                      Questions about OldSkool features
                     </li>
                     <li className="flex items-start gap-2">
                       <span className="text-primary mt-1">•</span>
@@ -140,7 +140,7 @@ export default function Contact() {
           </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
             Don't hesitate to reach out. We're excited to hear from you and discuss how 
-            SkillStreet can help build stronger communities through better connections.
+            OldSkool can help build stronger communities through better connections.
           </p>
           <Button 
             size="lg"
