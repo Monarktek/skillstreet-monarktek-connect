@@ -3,6 +3,7 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { MapPin, Clock, DollarSign, Mail } from "lucide-react";
 import Footer from "@/components/Footer";
+import TopBar from "@/components/TopBar";
 
 export default function Careers() {
   const positions = [
@@ -61,6 +62,7 @@ export default function Careers() {
 
   return (
     <div className="min-h-screen bg-background">
+      <TopBar />
       {/* Hero Section */}
       <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
