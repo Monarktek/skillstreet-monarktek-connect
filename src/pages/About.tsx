@@ -91,7 +91,7 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-foreground mb-2">Raheem Hammed</h3>
                 <Badge variant="secondary" className="mb-4">Developer</Badge>
                 <p className="text-muted-foreground">
-                  Full-stack developer and core contributor who helped build OldSkool from the ground up. 
+                  Full-stack developer who helped build OldSkool from the ground up. 
                   Raheem has been instrumental in both backend systems and frontend development.
                 </p>
               </CardContent>
