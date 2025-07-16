@@ -1,5 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Target, Zap } from "lucide-react";
+import communityImage from "@/assets/community-collaboration.jpg";
 
 export default function Mission() {
   return (
@@ -9,10 +10,22 @@ export default function Mission() {
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Our Mission
           </h2>
-          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto mb-8">
             Our mission is to connect people faster using AI, help people find local gigs, 
             community events, matching people for activities or finding friends.
           </p>
+          
+          {/* Mission Image */}
+          <div className="relative max-w-4xl mx-auto mb-16">
+            <div className="rounded-2xl overflow-hidden shadow-glow">
+              <img 
+                src={communityImage} 
+                alt="Community collaboration and networking"
+                className="w-full h-[300px] md:h-[400px] object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"></div>
+            </div>
+          </div>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
