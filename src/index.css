@@ -8,47 +8,49 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Light mode as default - bright and vibrant theme */
+    /* Light mode as default - white, teal, green, blue, orange/yellow theme */
     --background: 0 0% 100%;
-    --foreground: 222 13% 20%;
+    --foreground: 220 15% 20%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222 13% 20%;
+    --card-foreground: 220 15% 20%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222 13% 20%;
+    --popover-foreground: 220 15% 20%;
 
-    --primary: 240 100% 65%;
+    --primary: 180 85% 40%;
     --primary-foreground: 0 0% 100%;
 
-    --secondary: 280 65% 60%;
+    --secondary: 160 75% 45%;
     --secondary-foreground: 0 0% 100%;
 
-    --muted: 210 20% 95%;
-    --muted-foreground: 222 13% 55%;
+    --muted: 210 15% 96%;
+    --muted-foreground: 220 15% 55%;
 
-    --accent: 25 95% 60%;
+    --accent: 35 95% 60%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84.2% 60.2%;
+    --destructive: 0 84% 60%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 214 15% 90%;
-    --input: 214 15% 90%;
-    --ring: 240 100% 65%;
+    --border: 210 15% 92%;
+    --input: 210 15% 92%;
+    --ring: 180 85% 40%;
 
     --radius: 0.75rem;
 
-    /* Custom gradients and effects with bright colors */
-    --gradient-primary: linear-gradient(135deg, hsl(240 100% 65%), hsl(280 65% 60%));
-    --gradient-accent: linear-gradient(135deg, hsl(25 95% 60%), hsl(45 100% 70%));
-    --gradient-hero: linear-gradient(135deg, hsl(240 100% 65% / 0.05), hsl(25 95% 60% / 0.05));
-    --shadow-glow: 0 0 40px hsl(240 100% 65% / 0.15);
+    /* Custom gradients and effects with brand colors */
+    --gradient-primary: linear-gradient(135deg, hsl(180 85% 40%), hsl(160 75% 45%));
+    --gradient-accent: linear-gradient(135deg, hsl(35 95% 60%), hsl(45 100% 65%));
+    --gradient-hero: linear-gradient(135deg, hsl(180 85% 40% / 0.06), hsl(35 95% 60% / 0.06));
+    --shadow-glow: 0 0 30px hsl(180 85% 40% / 0.12);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
     
-    /* Additional bright color variations */
-    --yellow: 45 100% 70%;
-    --green: 120 60% 50%;
+    /* Additional brand color variations */
+    --yellow: 45 100% 65%;
+    --green: 160 75% 45%;
+    --blue: 210 85% 55%;
+    --teal: 180 85% 40%;
 
     --sidebar-background: 0 0% 100%;
     --sidebar-foreground: 222 13% 20%;
