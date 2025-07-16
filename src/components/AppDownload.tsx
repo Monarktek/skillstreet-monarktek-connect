@@ -70,7 +70,7 @@ export default function AppDownload() {
                   
                   <Badge variant="secondary" className="bg-accent/10 text-accent border-accent/20">
                     <Clock className="w-4 h-4 mr-1" />
-                    Launching Q2 2024
+                    Launching Q3 2024
                   </Badge>
                 </div>
               </div>
