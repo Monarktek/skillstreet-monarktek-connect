@@ -44,7 +44,7 @@ export default function About() {
                   <span className="text-white font-bold text-xl">AH</span>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Alan Hourmand</h3>
-                <Badge variant="secondary" className="mb-4">CEO & Founder</Badge>
+                <Badge variant="secondary" className="mb-4">CEO</Badge>
                 <p className="text-muted-foreground">
                   Visionary leader who conceived the OldSkool idea 10 years ago. Alan has been 
                   driving the product development and company strategy since inception.
@@ -59,7 +59,7 @@ export default function About() {
                   <span className="text-white font-bold text-xl">CR</span>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Charles Ross</h3>
-                <Badge variant="secondary" className="mb-4">CTO & Co-founder</Badge>
+                <Badge variant="secondary" className="mb-4">CTO</Badge>
                 <p className="text-muted-foreground">
                   Technical architect behind our AI-powered matching system. Charles leads the 
                   engineering team and oversees all technical aspects of the platform.
@@ -74,7 +74,7 @@ export default function About() {
                   <span className="text-white font-bold text-xl">JS</span>
                 </div>
                 <h3 className="text-xl font-semibold text-foreground mb-2">Joe Stella</h3>
-                <Badge variant="secondary" className="mb-4">CFO & Co-founder</Badge>
+                <Badge variant="secondary" className="mb-4">CFO</Badge>
                 <p className="text-muted-foreground">
                   Our first investor who joined the team later as CFO. Joe manages financial 
                   operations and business development, bringing valuable industry expertise.
