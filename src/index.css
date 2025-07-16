@@ -10,13 +10,13 @@ All colors MUST be HSL.
   :root {
     /* Light mode as default - white, teal, green, blue, orange/yellow theme */
     --background: 0 0% 100%;
-    --foreground: 220 15% 20%;
+    --foreground: 220 20% 15%;
 
     --card: 0 0% 100%;
-    --card-foreground: 220 15% 20%;
+    --card-foreground: 220 20% 15%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 220 15% 20%;
+    --popover-foreground: 220 20% 15%;
 
     --primary: 180 85% 40%;
     --primary-foreground: 0 0% 100%;
