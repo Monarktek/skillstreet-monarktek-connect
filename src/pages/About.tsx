@@ -91,8 +91,8 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-foreground mb-2">Raheem Hammed</h3>
                 <Badge variant="secondary" className="mb-4">Developer</Badge>
                 <p className="text-muted-foreground">
-                  Full-stack developer who helped build OldSkool from the ground up. 
-                  Raheem specializes in backend systems and API development.
+                  Full-stack developer and core contributor who helped build OldSkool from the ground up. 
+                  Raheem has been instrumental in both backend systems and frontend development.
                 </p>
               </CardContent>
             </Card>
@@ -106,8 +106,8 @@ export default function About() {
                 <h3 className="text-xl font-semibold text-foreground mb-2">Yusuf Yildiz</h3>
                 <Badge variant="secondary" className="mb-4">Developer</Badge>
                 <p className="text-muted-foreground">
-                  Frontend developer focused on creating intuitive user experiences. 
-                  Yusuf has been instrumental in building the mobile and web interfaces.
+                  Full-stack developer who contributed to both frontend and backend development. 
+                  Yusuf has helped build intuitive user experiences and system architecture.
                 </p>
               </CardContent>
             </Card>
