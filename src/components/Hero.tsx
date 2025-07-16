@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone, Users, Zap } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroBackground from "@/assets/neighborhood-background.jpg";
 import womanPhoneImage from "@/assets/woman-phone-neighborhood.jpg";
 
@@ -61,10 +62,10 @@ export default function Hero() {
                 className="bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105"
                 asChild
               >
-                <a href="/contact">
+                <Link to="/contact">
                   Email for Details
                   <ArrowRight className="ml-2 w-5 h-5" />
-                </a>
+                </Link>
               </Button>
             </div>
           </div>
