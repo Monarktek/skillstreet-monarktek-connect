@@ -9,7 +9,7 @@ import {
   Users, 
   Zap 
 } from "lucide-react";
-import communityImage from "@/assets/community-collaboration.jpg";
+import CommunitySlideshow from "./CommunitySlideshow";
 
 export default function Features() {
   const features = [
@@ -76,24 +76,9 @@ export default function Features() {
           </p>
         </div>
 
-        {/* Community Collaboration Showcase */}
+        {/* Community Slideshow */}
         <div className="mb-16">
-          <div className="relative rounded-2xl overflow-hidden shadow-glow max-w-5xl mx-auto">
-            <img 
-              src={communityImage} 
-              alt="Community members helping each other - lawn mowing, plumbing, deliveries, and neighborhood connections"
-              className="w-full h-[400px] md:h-[500px] object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-primary/30 via-transparent to-transparent"></div>
-            <div className="absolute bottom-6 left-6 right-6 text-center">
-              <h3 className="text-2xl md:text-3xl font-bold text-white mb-2">
-                Real People, Real Connections
-              </h3>
-              <p className="text-white/90 text-lg">
-                From daily tasks to lifelong friendships - SkillStreet brings neighbors together
-              </p>
-            </div>
-          </div>
+          <CommunitySlideshow />
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
