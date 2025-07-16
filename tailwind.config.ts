@@ -61,7 +61,9 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				yellow: 'hsl(var(--yellow))',
+				green: 'hsl(var(--green))'
 			},
 			backgroundImage: {
 				'gradient-primary': 'var(--gradient-primary)',
