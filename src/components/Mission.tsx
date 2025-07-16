@@ -1,6 +1,6 @@
 import { Card, CardContent } from "@/components/ui/card";
 import { Brain, Heart, Target, Zap } from "lucide-react";
-import communityImage from "@/assets/community-collaboration.jpg";
+import communityImage from "@/assets/neighborhood-handshake.jpg";
 
 export default function Mission() {
   return (
@@ -20,7 +20,7 @@ export default function Mission() {
             <div className="rounded-2xl overflow-hidden shadow-glow">
               <img 
                 src={communityImage} 
-                alt="Community collaboration and networking"
+                alt="People shaking hands in a neighborhood setting"
                 className="w-full h-[300px] md:h-[400px] object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 to-transparent"></div>
