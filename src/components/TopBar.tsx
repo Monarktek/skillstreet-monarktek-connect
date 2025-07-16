@@ -12,10 +12,35 @@ export default function TopBar() {
           >
             Monarktek
           </Link>
-          <div className="text-muted-foreground font-medium">
-            🚀 OldSkool is launching soon - Bringing back community
+          <nav className="flex items-center space-x-6">
+            <Link 
+              to="/about" 
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              About Us
+            </Link>
+            <Link 
+              to="/mission" 
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              Our Mission
+            </Link>
+            <Link 
+              to="/careers" 
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              Careers
+            </Link>
+            <Link 
+              to="/contact" 
+              className="text-muted-foreground hover:text-primary transition-colors"
+            >
+              Contact
+            </Link>
+          </nav>
+          <div className="text-muted-foreground font-medium text-xs">
+            🚀 OldSkool is launching soon
           </div>
-          <div className="w-20"> {/* Spacer for balanced layout */}</div>
         </div>
       </div>
     </div>
