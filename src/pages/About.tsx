@@ -6,9 +6,9 @@ export default function About() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+      <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               About <span className="text-primary">Monarktek</span>
             </h1>
@@ -22,9 +22,9 @@ export default function About() {
       </section>
 
       {/* Team Section */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Team
             </h2>
@@ -114,9 +114,9 @@ export default function About() {
       </section>
 
       {/* Company Story */}
-      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+      <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Our Story
             </h2>

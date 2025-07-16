@@ -6,9 +6,9 @@ import qrCodePlaceholder from "@/assets/qr-code-placeholder.png";
 
 export default function AppDownload() {
   return (
-    <section className="py-20 bg-background">
+    <section className="py-16 bg-background">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="text-center mb-16">
+        <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Join the SkillStreet Community
           </h2>
@@ -61,8 +61,11 @@ export default function AppDownload() {
                   <Button 
                     size="lg" 
                     className="w-full bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105"
+                    asChild
                   >
-                    Join the Waitlist
+                    <a href="/contact">
+                      Email for Details
+                    </a>
                   </Button>
                   
                   <Badge variant="secondary" className="bg-accent/10 text-accent border-accent/20">

@@ -58,12 +58,9 @@ export default function Footer() {
               © 2025 Monarktek. All rights reserved.
             </p>
             <div className="flex gap-4 mt-4 md:mt-0">
-              <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-                Privacy Policy
-              </Button>
-              <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">
-                Terms of Service
-              </Button>
+              <a href="/contact" className="text-muted-foreground hover:text-foreground transition-colors text-sm">
+                Contact Us
+              </a>
             </div>
           </div>
         </div>

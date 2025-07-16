@@ -7,9 +7,9 @@ export default function Contact() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+      <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Get In <span className="text-primary">Touch</span>
             </h1>
@@ -22,9 +22,9 @@ export default function Contact() {
       </section>
 
       {/* Contact Information */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-16">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
             {/* Email Us */}
             <Card className="group hover:shadow-glow transition-all duration-300 border-border">
               <CardContent className="p-8 text-center">
@@ -131,7 +131,7 @@ export default function Contact() {
       </section>
 
       {/* CTA Section */}
-      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+      <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
             Ready to Connect?

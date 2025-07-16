@@ -62,9 +62,9 @@ export default function Careers() {
   return (
     <div className="min-h-screen bg-background">
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+      <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h1 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
               Join Our <span className="text-primary">Team</span>
             </h1>
@@ -77,9 +77,9 @@ export default function Careers() {
       </section>
 
       {/* Open Positions */}
-      <section className="py-20">
+      <section className="py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Open Positions
             </h2>
@@ -160,9 +160,9 @@ export default function Careers() {
       </section>
 
       {/* Why Join Us */}
-      <section className="py-20 bg-gradient-to-b from-muted/20 to-background">
+      <section className="py-16 bg-gradient-to-b from-muted/20 to-background">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+          <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
               Why Join Monarktek?
             </h2>
