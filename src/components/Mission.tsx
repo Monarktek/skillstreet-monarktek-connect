@@ -1,0 +1,74 @@
+import { Card, CardContent } from "@/components/ui/card";
+import { Brain, Heart, Target, Zap } from "lucide-react";
+
+export default function Mission() {
+  return (
+    <section className="py-20 bg-background">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="text-center mb-16">
+          <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
+            Our Mission
+          </h2>
+          <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
+            We believe in the power of local connections. SkillStreet harnesses artificial intelligence 
+            to create meaningful relationships, accelerate job opportunities, and strengthen communities.
+          </p>
+        </div>
+
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* Connect People */}
+          <Card className="group hover:shadow-glow transition-all duration-300 border-border">
+            <CardContent className="p-8 text-center">
+              <div className="bg-gradient-primary rounded-full p-4 w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Heart className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Connect People</h3>
+              <p className="text-muted-foreground">
+                Building authentic relationships within your local community through shared interests and needs.
+              </p>
+            </CardContent>
+          </Card>
+
+          {/* AI-Powered Matching */}
+          <Card className="group hover:shadow-glow transition-all duration-300 border-border">
+            <CardContent className="p-8 text-center">
+              <div className="bg-gradient-accent rounded-full p-4 w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Brain className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">AI Intelligence</h3>
+              <p className="text-muted-foreground">
+                Smart algorithms that understand your skills, preferences, and goals to make perfect matches.
+              </p>
+            </CardContent>
+          </Card>
+
+          {/* Fast Job Finding */}
+          <Card className="group hover:shadow-glow transition-all duration-300 border-border">
+            <CardContent className="p-8 text-center">
+              <div className="bg-gradient-primary rounded-full p-4 w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Zap className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Fast Opportunities</h3>
+              <p className="text-muted-foreground">
+                Instantly discover gigs, projects, and job opportunities that match your skills and schedule.
+              </p>
+            </CardContent>
+          </Card>
+
+          {/* Strengthen Communities */}
+          <Card className="group hover:shadow-glow transition-all duration-300 border-border">
+            <CardContent className="p-8 text-center">
+              <div className="bg-gradient-accent rounded-full p-4 w-16 h-16 mx-auto mb-6 group-hover:scale-110 transition-transform duration-300">
+                <Target className="w-8 h-8 text-white" />
+              </div>
+              <h3 className="text-xl font-semibold text-foreground mb-3">Strong Communities</h3>
+              <p className="text-muted-foreground">
+                Fostering local economic growth and social connections that benefit everyone.
+              </p>
+            </CardContent>
+          </Card>
+        </div>
+      </div>
+    </section>
+  );
+}
