@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone, Users, Zap } from "lucide-react";
-import heroBackground from "@/assets/hero-background.jpg";
+import heroBackground from "@/assets/neighborhood-background.jpg";
 
 export default function Hero() {
   return (
@@ -17,8 +17,7 @@ export default function Hero() {
           {/* Company Name */}
           <div className="space-y-3">
             <h1 className="text-3xl md:text-5xl font-bold text-foreground">
-              Monarktek
-              <span className="block text-primary">Corporation</span>
+              <span className="text-primary">Monarktek</span>
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground max-w-2xl mx-auto">
               Revolutionizing local connections through AI-powered community building
