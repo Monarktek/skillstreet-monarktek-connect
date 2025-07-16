@@ -41,17 +41,17 @@ export default function Hero() {
               
               {/* Feature Pills */}
               <div className="flex flex-wrap justify-center lg:justify-start gap-3 mb-6">
-                <div className="flex items-center gap-2 bg-secondary rounded-full px-4 py-2">
+                <div className="flex items-center gap-2 bg-card border-2 border-primary/20 rounded-full px-4 py-2 shadow-md">
                   <Users className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium">Local Connections</span>
+                  <span className="text-sm font-medium text-foreground">Local Connections</span>
                 </div>
-                <div className="flex items-center gap-2 bg-secondary rounded-full px-4 py-2">
+                <div className="flex items-center gap-2 bg-card border-2 border-accent/20 rounded-full px-4 py-2 shadow-md">
                   <Zap className="w-4 h-4 text-accent" />
-                  <span className="text-sm font-medium">AI-Powered Matching</span>
+                  <span className="text-sm font-medium text-foreground">AI-Powered Matching</span>
                 </div>
-                <div className="flex items-center gap-2 bg-secondary rounded-full px-4 py-2">
+                <div className="flex items-center gap-2 bg-card border-2 border-primary/20 rounded-full px-4 py-2 shadow-md">
                   <ArrowRight className="w-4 h-4 text-primary" />
-                  <span className="text-sm font-medium">Fast Job Finding</span>
+                  <span className="text-sm font-medium text-foreground">Fast Job Finding</span>
                 </div>
               </div>
 
