@@ -60,9 +60,12 @@ export default function Hero() {
               <Button 
                 size="lg" 
                 className="bg-gradient-primary hover:shadow-glow transition-all duration-300 transform hover:scale-105"
+                asChild
               >
-                Learn More About SkillStreet
-                <ArrowRight className="ml-2 w-5 h-5" />
+                <a href="/contact">
+                  Email for Details
+                  <ArrowRight className="ml-2 w-5 h-5" />
+                </a>
               </Button>
             </div>
           </div>

@@ -16,15 +16,15 @@ export default function Footer() {
             <div className="space-y-2">
               <div className="flex items-center gap-2">
                 <MapPin className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">Austin, TX</span>
+                <span className="text-sm text-muted-foreground">Raleigh, NC</span>
               </div>
               <div className="flex items-center gap-2">
                 <Mail className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">info@monarktek.com</span>
+                <span className="text-sm text-muted-foreground">info@monarktek.io</span>
               </div>
               <div className="flex items-center gap-2">
                 <Phone className="w-4 h-4 text-primary" />
-                <span className="text-sm text-muted-foreground">(555) 123-4567</span>
+                <span className="text-sm text-muted-foreground">(919) 616-6125</span>
               </div>
             </div>
           </div>
@@ -44,10 +44,10 @@ export default function Footer() {
           <div>
             <h4 className="text-lg font-semibold mb-4 text-foreground">Company</h4>
             <ul className="space-y-2 text-muted-foreground">
-              <li>About Us</li>
-              <li>Our Mission</li>
-              <li>Careers</li>
-              <li>Contact</li>
+              <li><a href="/about" className="hover:text-foreground transition-colors">About Us</a></li>
+              <li><a href="/" className="hover:text-foreground transition-colors">Our Mission</a></li>
+              <li><a href="/careers" className="hover:text-foreground transition-colors">Careers</a></li>
+              <li><a href="/contact" className="hover:text-foreground transition-colors">Contact</a></li>
             </ul>
           </div>
         </div>
@@ -55,7 +55,7 @@ export default function Footer() {
         <div className="border-t border-border mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm">
-              © 2024 Monarktek. All rights reserved.
+              © 2025 Monarktek. All rights reserved.
             </p>
             <div className="flex gap-4 mt-4 md:mt-0">
               <Button variant="ghost" size="sm" className="text-muted-foreground hover:text-foreground">

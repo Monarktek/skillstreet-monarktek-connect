@@ -10,8 +10,8 @@ export default function Mission() {
             Our Mission
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            We believe in the power of local connections. SkillStreet harnesses artificial intelligence 
-            to create meaningful relationships, accelerate job opportunities, and strengthen communities.
+            Our mission is to connect people faster using AI, help people find local gigs, 
+            community events, matching people for activities or finding friends.
           </p>
         </div>
 
