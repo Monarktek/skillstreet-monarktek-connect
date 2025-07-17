@@ -39,7 +39,7 @@ export default function TopBar() {
             </Link>
           </nav>
           <div className="text-muted-foreground font-medium text-xs">
-            🚀 OldSkool is launching soon
+            🚀 NeighborMe is launching soon
           </div>
         </div>
       </div>

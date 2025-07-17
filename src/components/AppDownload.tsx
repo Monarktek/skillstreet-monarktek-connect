@@ -10,7 +10,7 @@ export default function AppDownload() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold text-foreground mb-4">
-            Join the OldSkool Community
+            Join the NeighborMe Community
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
             Be among the first to experience the future of local connections. 
@@ -28,7 +28,7 @@ export default function AppDownload() {
                 
                 <div>
                   <h3 className="text-2xl font-bold text-foreground mb-3">
-                    OldSkool Mobile App
+                    NeighborMe Mobile App
                   </h3>
                   <p className="text-muted-foreground mb-6">
                     Join thousands of early adopters waiting for the revolutionary app that will 
