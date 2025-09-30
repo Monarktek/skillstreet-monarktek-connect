@@ -2,7 +2,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowRight, Smartphone, Users, Zap } from "lucide-react";
 import { Link } from "react-router-dom";
 import heroBackground from "@/assets/neighborhood-background.jpg";
-import womanPhoneImage from "@/assets/woman-phone-neighborhood.jpg";
+import milyMeLogo from "@/assets/milyme-logo.png";
 
 export default function Hero() {
   return (
@@ -72,13 +72,12 @@ export default function Hero() {
 
           {/* Right Image */}
           <div className="relative lg:order-last">
-            <div className="relative rounded-2xl overflow-hidden shadow-glow">
+            <div className="relative rounded-2xl overflow-hidden shadow-glow bg-gradient-to-br from-primary/10 to-accent/10 p-8 flex items-center justify-center">
               <img 
-                src={womanPhoneImage} 
-                alt="Woman using smartphone in neighborhood - MilyMe app concept"
-                className="w-full h-[400px] md:h-[500px] object-cover"
+                src={milyMeLogo} 
+                alt="MilyMe logo - Community connection app"
+                className="w-full max-w-[300px] h-auto object-contain"
               />
-              <div className="absolute inset-0 bg-gradient-to-t from-primary/20 to-transparent"></div>
             </div>
           </div>
         </div>
