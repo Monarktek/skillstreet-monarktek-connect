@@ -76,7 +76,7 @@ export default function Hero() {
               <img 
                 src={milyMeLogo} 
                 alt="MilyMe logo - Community connection app"
-                className="w-full max-w-[300px] h-auto object-contain"
+                className="w-full max-w-[500px] h-auto object-contain"
               />
             </div>
           </div>
