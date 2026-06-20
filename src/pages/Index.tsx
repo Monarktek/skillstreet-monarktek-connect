@@ -1,19 +1,23 @@
-import TopBar from "@/components/TopBar";
-import Hero from "@/components/Hero";
-import Mission from "@/components/Mission";
-import Features from "@/components/Features";
-import AppDownload from "@/components/AppDownload";
-import Footer from "@/components/Footer";
+import SiteNav from "@/components/SiteNav";
+import CompanyHero from "@/components/CompanyHero";
+import CompanyAbout from "@/components/CompanyAbout";
+import Products from "@/components/Products";
+import Principles from "@/components/Principles";
+import ContactCTA from "@/components/ContactCTA";
+import SiteFooter from "@/components/SiteFooter";
 
 const Index = () => {
   return (
-    <div className="min-h-screen">
-      <TopBar />
-      <Hero />
-      <Mission />
-      <Features />
-      <AppDownload />
-      <Footer />
+    <div className="min-h-screen bg-background">
+      <SiteNav />
+      <main>
+        <CompanyHero />
+        <CompanyAbout />
+        <Products />
+        <Principles />
+        <ContactCTA />
+      </main>
+      <SiteFooter />
     </div>
   );
 };

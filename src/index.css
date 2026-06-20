@@ -8,58 +8,56 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Light mode as default - white, teal, green, blue, orange/yellow theme */
-    --background: 0 0% 100%;
-    --foreground: 220 20% 15%;
+    /* MonarkTek — premium dark corporate/tech theme */
+    --background: 222 30% 6%;
+    --foreground: 210 30% 96%;
 
-    --card: 0 0% 100%;
-    --card-foreground: 220 20% 15%;
+    --card: 222 28% 9%;
+    --card-foreground: 210 30% 96%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 220 20% 15%;
+    --popover: 222 28% 9%;
+    --popover-foreground: 210 30% 96%;
 
-    --primary: 180 85% 40%;
-    --primary-foreground: 0 0% 100%;
+    --primary: 190 95% 55%;
+    --primary-foreground: 222 40% 6%;
 
-    --secondary: 160 75% 45%;
-    --secondary-foreground: 0 0% 100%;
+    --secondary: 222 24% 16%;
+    --secondary-foreground: 210 30% 96%;
 
-    --muted: 210 15% 96%;
-    --muted-foreground: 220 15% 55%;
+    --muted: 222 22% 14%;
+    --muted-foreground: 215 18% 62%;
 
-    --accent: 35 95% 60%;
+    --accent: 250 90% 66%;
     --accent-foreground: 0 0% 100%;
 
-    --destructive: 0 84% 60%;
+    --destructive: 0 70% 55%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 210 15% 92%;
-    --input: 210 15% 92%;
-    --ring: 180 85% 40%;
+    --border: 222 20% 18%;
+    --input: 222 20% 18%;
+    --ring: 190 95% 55%;
 
-    --radius: 0.75rem;
+    --radius: 0.5rem;
 
-    /* Custom gradients and effects with brand colors */
-    --gradient-primary: linear-gradient(135deg, hsl(180 85% 40%), hsl(160 75% 45%));
-    --gradient-accent: linear-gradient(135deg, hsl(35 95% 60%), hsl(45 100% 65%));
-    --gradient-hero: linear-gradient(135deg, hsl(180 85% 40% / 0.06), hsl(35 95% 60% / 0.06));
-    --shadow-glow: 0 0 30px hsl(180 85% 40% / 0.12);
+    --gradient-primary: linear-gradient(135deg, hsl(190 95% 55%), hsl(250 90% 66%));
+    --gradient-accent: linear-gradient(135deg, hsl(250 90% 66%), hsl(290 80% 60%));
+    --gradient-hero: radial-gradient(ellipse 80% 60% at 50% -10%, hsl(190 95% 55% / 0.16), transparent 70%);
+    --shadow-glow: 0 0 60px hsl(190 95% 55% / 0.18);
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-    
-    /* Additional brand color variations */
+
     --yellow: 45 100% 65%;
     --green: 160 75% 45%;
     --blue: 210 85% 55%;
     --teal: 180 85% 40%;
 
-    --sidebar-background: 0 0% 100%;
-    --sidebar-foreground: 222 13% 20%;
-    --sidebar-primary: 240 100% 65%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 210 20% 95%;
-    --sidebar-accent-foreground: 222 13% 20%;
-    --sidebar-border: 214 15% 90%;
-    --sidebar-ring: 240 100% 65%;
+    --sidebar-background: 222 28% 9%;
+    --sidebar-foreground: 210 30% 96%;
+    --sidebar-primary: 190 95% 55%;
+    --sidebar-primary-foreground: 222 40% 6%;
+    --sidebar-accent: 222 22% 14%;
+    --sidebar-accent-foreground: 210 30% 96%;
+    --sidebar-border: 222 20% 18%;
+    --sidebar-ring: 190 95% 55%;
   }
 
   .dark {
@@ -110,5 +108,22 @@ All colors MUST be HSL.
 
   body {
     @apply bg-background text-foreground;
+    font-feature-settings: "ss01", "cv01";
+  }
+
+  ::selection {
+    @apply bg-primary/30 text-foreground;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent;
+  }
+  .grid-texture {
+    background-image:
+      linear-gradient(hsl(var(--border) / 0.5) 1px, transparent 1px),
+      linear-gradient(90deg, hsl(var(--border) / 0.5) 1px, transparent 1px);
+    background-size: 56px 56px;
   }
 }
