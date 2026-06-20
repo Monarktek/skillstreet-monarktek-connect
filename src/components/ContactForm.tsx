@@ -30,8 +30,13 @@ export default function ContactForm() {
     setErrors({});
     setSending(true);
     try {
-      const { error } = await supabase.functions.invoke("send-contact", {
-        body: result.data,
+      const { error } = await supabase.functions.invoke("send-transactional-email", {
+        body: {
+          templateName: "contact-notification",
+          recipientEmail: "alanh@monarktek.io",
+          idempotencyKey: `contact-${result.data.email}-${Date.now()}`,
+          templateData: result.data,
+        },
       });
       if (error) throw error;
       toast({ title: "Message sent", description: "Thanks for reaching out — we'll get back to you soon." });
