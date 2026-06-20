@@ -3,7 +3,7 @@ import CompanyHero from "@/components/CompanyHero";
 import CompanyAbout from "@/components/CompanyAbout";
 import Products from "@/components/Products";
 import Principles from "@/components/Principles";
-import ContactCTA from "@/components/ContactCTA";
+import ContactForm from "@/components/ContactForm";
 import SiteFooter from "@/components/SiteFooter";
 
 const Index = () => {
@@ -15,7 +15,7 @@ const Index = () => {
         <CompanyAbout />
         <Products />
         <Principles />
-        <ContactCTA />
+        <ContactForm />
       </main>
       <SiteFooter />
     </div>
