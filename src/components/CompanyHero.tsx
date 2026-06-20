@@ -13,10 +13,6 @@ export default function CompanyHero() {
           transition={{ duration: 0.7, ease: [0.22, 1, 0.36, 1] }}
           className="max-w-3xl"
         >
-          <span className="inline-flex items-center gap-2 text-xs font-medium tracking-widest uppercase text-muted-foreground border border-border rounded-full px-3 py-1">
-            <span className="h-1.5 w-1.5 rounded-full bg-primary animate-pulse" />
-            Technology studio
-          </span>
           <h1 className="mt-6 font-display font-bold tracking-tight text-5xl sm:text-6xl lg:text-7xl leading-[1.02]">
             Building technology for{" "}
             <span className="text-gradient">what's next</span> for humanity.
