@@ -11,7 +11,7 @@ export default function CompanyAbout() {
           transition={{ duration: 0.6 }}
           className="font-display font-bold text-3xl sm:text-4xl tracking-tight leading-tight"
         >
-          We build to move humanity forward.
+          Technology that earns its place.
         </motion.h2>
         <motion.div
           initial={{ opacity: 0, y: 16 }}
@@ -21,9 +21,9 @@ export default function CompanyAbout() {
           className="space-y-5 text-lg text-muted-foreground leading-relaxed"
         >
           <p>
-            MonarkTek is a product company focused on technology that genuinely improves
-            everyday life. We aren't chasing trends — we build tools meant to last and to
-            serve the people who use them.
+            MonarkTek is a product company focused on technology that improves
+            everyday life. We don't chase trends. We build tools meant to last and
+            to serve the people who use them.
           </p>
           <p>
             Our work spans the products we own and operate, each created with the same
