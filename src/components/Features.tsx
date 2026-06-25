@@ -71,7 +71,7 @@ export default function Features() {
             Why Choose MilyMe?
           </h2>
           <p className="text-lg text-muted-foreground max-w-3xl mx-auto">
-            MilyMe isn't just another app—it's your gateway to meaningful local connections, 
+            MilyMe isn't just another app, it's your gateway to meaningful local connections, 
             powered by cutting-edge AI technology.
           </p>
         </div>

@@ -36,12 +36,12 @@ export default function Products() {
                 </span>
               </div>
               <h3 className="mt-6 font-display font-bold text-2xl sm:text-3xl tracking-tight">
-                Neighbors helping neighbors, matched by AI.
+                Local help, matched by AI.
               </h3>
               <p className="mt-4 text-muted-foreground leading-relaxed">
-                MilyMe is a hyper-local platform that quietly routes your ask to the right
-                neighbor — trusted people nearby who can actually help. No feeds, no bidding
-                wars, just real community connection.
+                MilyMe is a hyper-local platform that routes your request to the right
+                neighbor: trusted people nearby who can actually help. No feeds, no
+                bidding wars, just useful local connections.
               </p>
               <span className="mt-7 inline-flex items-center gap-1.5 text-primary font-medium">
                 Visit milyme.com

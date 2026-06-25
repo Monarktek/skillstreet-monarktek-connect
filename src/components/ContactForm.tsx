@@ -39,7 +39,7 @@ export default function ContactForm() {
         },
       });
       if (error) throw error;
-      toast({ title: "Message sent", description: "Thanks for reaching out — we'll get back to you soon." });
+      toast({ title: "Message sent", description: "Thanks for reaching out. We'll get back to you soon." });
       setForm({ name: "", email: "", message: "" });
     } catch (err) {
       toast({
@@ -60,10 +60,10 @@ export default function ContactForm() {
           <div className="relative grid gap-10 lg:grid-cols-2">
             <div>
               <h2 className="font-display font-bold text-3xl sm:text-4xl tracking-tight">
-                Let's build something that matters.
+                Get in touch.
               </h2>
               <p className="mt-4 text-muted-foreground max-w-md">
-                Partnerships, press, or just curious about what we're working on — reach out.
+                Partnerships, press, or questions about what we're working on. Reach out.
               </p>
               <div className="mt-8 space-y-4">
                 <a
