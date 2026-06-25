@@ -11,7 +11,7 @@ export default function ContactCTA() {
               Let's build something that matters.
             </h2>
             <p className="mt-4 text-muted-foreground max-w-md mx-auto">
-              Partnerships, press, or just curious about what we're working on — reach out.
+              Partnerships, press, or just curious about what we're working on. Reach out.
             </p>
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
               <a
