@@ -5,17 +5,17 @@ const principles = [
   {
     icon: Compass,
     title: "Built for the future",
-    body: "We invest in technology that stays relevant, solving real problems rather than reacting to hype.",
+    body: "We focus on technology that stays useful over time and solves real, everyday problems.",
   },
   {
     icon: Users,
     title: "Human at the center",
-    body: "Every product starts with the people who use it. Technology should expand what they can do.",
+    body: "Every product starts with the people who use it, designed to fit naturally into their lives.",
   },
   {
     icon: Layers,
     title: "Built to last",
-    body: "We own and operate what we make, holding it to a standard of quality and care over time.",
+    body: "We own and operate what we make, and we maintain it with care for the long term.",
   },
 ];
 
