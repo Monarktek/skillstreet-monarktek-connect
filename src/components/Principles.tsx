@@ -5,7 +5,7 @@ const principles = [
   {
     icon: Compass,
     title: "Built for the future",
-    body: "We focus on technology that stays useful over time and solves real, everyday problems.",
+    body: "We build technology that solves real, everyday problems.",
   },
   {
     icon: Users,
